@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorte - seu sorteador favorito</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+
+    <!-- ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <script>
+        function exibir(){
+            var range =document.getElementById("range").value;
+            var total =document.getElementById("totalNumeros").value;
+
+            var resultado = sortear(parseInt(range), parseInt(total));
+
+            document.getElementById("resposta").innerHTML = resultado ;
+        }
+    </script>
+    
+    <div class="content">
+
+        <div class="flex title">
+            <h1>Sortex <i class="bx bx-joystick"></i></h1>
+            <p>Seu melhor site de sorteio</p>
+            <div class="linha"></div>
+        </div>
+
+        <div class="inputs">
+            <div class="flex">
+                <label for="">Quantos números sortear?</label>
+                <input type="number" id="range" name="range">
+            </div>
+            <div class="flex">
+                <label for="">Até qual número sortear?</label>
+                <input type="number" id="totalNumeros" name="totalNumeros">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn1" id="btn" onclick="exibir()"><strong>Sortear</strong></button>
+            <a href="index.html"><button class="btn btn2" id="btn2"><strong>Resetar</strong></button></a>
+        </div>
+
+        <div class="center"><span class="resposta" id="resposta"></span></div>
+    </div>
+    
+
+    <div class="cursor"></div>
+   
+    <script src="../dist/SorteiroMega.js"></script>
+</body>
+</html>
