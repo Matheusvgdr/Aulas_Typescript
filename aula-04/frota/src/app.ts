@@ -1,5 +1,5 @@
-import {Moto} from "./Moto";
-import { Caminhao } from "./Caminhao";
+import {Moto} from "./moto";
+import { Caminhao } from "./caminhao";
 
 let m1 = new Moto("Vermelha", "ninja 400","kawasaki");
 

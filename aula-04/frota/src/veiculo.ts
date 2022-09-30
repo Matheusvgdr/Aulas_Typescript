@@ -1,3 +1,5 @@
+export{Veiculo};
+
 class Veiculo{
     cor: string;
     modelo: string;
@@ -9,14 +11,13 @@ class Veiculo{
         this.fabricante = fabricante;
     }
 
-    acelerar(){
+    acelerar(): void{
         console.log("O veículo está acelerando");
     }
 
-    parar(){
-        console.log("O veículo está parando");;
+    parar(): void{
+        console.log("O veículo está parando");
     }
     
 }
 
-export{Veiculo}
