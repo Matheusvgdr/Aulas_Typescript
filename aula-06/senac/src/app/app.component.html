@@ -1,0 +1,9 @@
+<snc-header></snc-header>
+{{alunos.nome}}
+<!-- O ! é o not, se o aprovado for true, então o ! vai fazer ele ser false então o hidden fica false e aparece -->
+<div [class.light] = "alunos.aprovado" [hidden] = "!alunos.aprovado">
+   O aluno está aprovado!
+</div>
+<!-- <div [hidden] = "aprovado">
+    O aluno está reprovado!
+ </div> -->
