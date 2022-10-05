@@ -1,9 +1,8 @@
-
-
 header{
-    background: #c3c3c3;
+    background: #252525;
+    color: #eee;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 35px 25px;
+    padding: 28px 25px;
     display: flex;
     text-align: center;
     justify-content: space-between;

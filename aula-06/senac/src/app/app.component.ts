@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Estudante } from './estudante/estudante.model';
 
 @Component({
   selector: 'snc-root',
@@ -7,8 +8,11 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  alunos = {nome: "João", aprovado: true}
-
-  nome: string = 'João da Silva';
-  aprovado: boolean = true;
+  estudantes: Array<Estudante> = [
+    {nome: "Ana Clara", aprovado: true, escola: "Senac"},
+    {nome: "Arian", aprovado: false, escola: "Senac"},
+    {nome: "Nicolas", aprovado: true},
+    {nome: "Marcus", aprovado: false, escola: "Senac"}
+  ]
+  
 }
