@@ -2,11 +2,19 @@
 <!-- [hidden] = "!aprovado" -->
 <div >
     <div *ngIf="estudante.aprovado">
-        <p>{{estudante.nome}}</p>
+        <a href="#" (click)="exibir()">{{estudante.nome}}</a>
+        <a href="#" (keydown.space)="keyDown($event)">teste</a>
     </div>
 
      <div *ngIf="estudante.aprovado" >
-       <div [class.light] = "estudante.aprovado">O aluno está aprovado!</div>
+       <div [class.light] = "estudante.aprovado">
+        
+        O aluno está aprovado!
+        <button (click)="descricao.focus()">Foco</button>
+        <br>
+        <input type="text" #descricao>
+        
+    </div>
     </div>
 
     <div *ngIf="!estudante.aprovado">
@@ -14,7 +22,11 @@
     </div>
 
    <div *ngIf="!estudante.aprovado">
-       <div [class.red] = "!estudante.aprovado">O aluno está reprovado!</div>
+       <div [class.red] = "!estudante.aprovado">
+        O aluno está reprovado!
+        <button (click)="descricao2.focus()">Foco</button>
+        <br>
+        <input type="text" #descricao2></div>
    </div>
    
 </div>

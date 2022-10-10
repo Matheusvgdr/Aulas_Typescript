@@ -1,0 +1,104 @@
+@import url('http://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #13161f;
+}
+
+.bg-filme{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px 50px;
+    border-radius: 10px;
+    width: 85vw;
+    margin: auto;
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(60px);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-left: 20px;
+}
+
+h2{
+    color: #222;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    width: 80vw;
+}
+.tema1, .tema2, .tema3, .tema4, .tema5, .tema6{
+    width: 400px;
+    height: 300px;
+    grid-gap: 5px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tema1{
+    background-image: url("../img/spider.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tema2{
+    background-image: url("../img/new2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tema3{
+    background-image: url("../img/new3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tema4{
+    background-image: url("../img/new4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tema5{
+    background-image: url("../img/starwars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tema6{
+    background-image: url("../img/bg-filme-screen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    position: relative;
+    bottom: -85%;
+    padding: 10px 30px;
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(60px);
+}

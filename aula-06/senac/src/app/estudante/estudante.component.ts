@@ -17,4 +17,11 @@ export class EstudanteComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  exibir(){
+    console.log(`Estudante: ${event}`);
+  }
+
+  keyDown(event:any): void{
+    console.log(`Key ${event}`);
+  }
 }

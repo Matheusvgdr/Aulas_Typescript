@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.espacial:hover{
+
+    transform: translateY(-5px);
+}
+
+.drama:hover{
+    
+    transform: translateY(-5px);
+}
+
+.terror:hover{
+    
+    transform: translateY(-5px);
+}
+
+.herois:hover{
+    
+    transform: translateY(-5px);
+}
+
+.comedia:hover{
+    
+    transform: translateY(-5px);
+}
+
+.scifi:hover{
+    
+    transform: translateY(-5px);
+}
+
+.scale-effect:hover{
+    transform: scale(1.04);
+}
