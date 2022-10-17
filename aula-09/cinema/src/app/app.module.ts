@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { CategoriaComponent } from './categorias/categoria/categoria.component';
 import { CategoriasService } from './categorias/categorias.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CategoriasService } from './categorias/categorias.service';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
   providers: [
     CategoriasService
