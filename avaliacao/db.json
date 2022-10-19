@@ -1,0 +1,59 @@
+{
+    "alunos":[
+        {
+            "id":1,
+            "matricula":"202210171",
+            "nome":"Bruna Silva da Costa",
+            "idade":"18",
+            "turma":"500-A",
+            "contato":"bruna@gmail.com",
+            "caminhoImagem": "../../assets/peop1.png"
+        },
+        {
+            "id":2,
+            "matricula":"202210172",
+            "nome":"André Luiz Ribeiro",
+            "idade":"17",
+            "turma":"201-B",
+            "contato":"(21) 96845-9785",
+            "caminhoImagem": "../../assets/peop2.png"
+        },
+        {
+            "id":3,
+            "matricula":"202210173",
+            "nome":"Carlos Maia Oliveira",
+            "idade":"19",
+            "turma":"501-A",
+            "contato":"",
+            "caminhoImagem": "../../assets/peop3.png"
+        },
+        {
+            "id":4,
+            "matricula":"202210174",
+            "nome":"Júlia Barroso Monteiro",
+            "idade":"16",
+            "turma":"310-C",
+            "contato":"(22) 91254-6354",
+            "caminhoImagem": "../../assets/peop4.png"
+        },
+        {
+            "id":5,
+            "matricula":"202210175",
+            "nome":"Alice Medeiros Paes",
+            "idade":"18",
+            "turma":"204-B",
+            "contato":"",
+            "caminhoImagem": "../../assets/peop5.png"
+        },
+        {
+            "id":6,
+            "matricula":"202210176",
+            "nome":"Everton Mendes Pereira",
+            "idade":"18",
+            "turma":"300-C",
+            "contato":"everton@gmail.com",
+            "caminhoImagem": "../../assets/peop6.png"
+        }
+
+    ]
+}

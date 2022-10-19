@@ -1,1 +1,14 @@
-<p>alunos works!</p>
+<div class="all">
+    <div class="titulo">
+        <h1>Alunos</h1>
+        <div class="container-pesquisa">
+            <input type="text" class="pesquisa" placeholder="Pesquisar">
+            <button class="btn"><i class="bx bx-search"></i></button>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="container" *ngFor="let nome of alunos">
+            <ava-aluno [alunos]="nome"></ava-aluno>
+        </div>
+    </div>
+</div>

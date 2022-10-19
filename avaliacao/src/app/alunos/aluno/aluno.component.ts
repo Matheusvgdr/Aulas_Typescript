@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Aluno } from './aluno.model';
 
 @Component({
   selector: 'ava-aluno',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunoComponent implements OnInit {
 
+  @Input() alunos!: Aluno;
+  
   constructor() { }
 
   ngOnInit(): void {

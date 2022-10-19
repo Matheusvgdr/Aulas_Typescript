@@ -1,0 +1,27 @@
+$color-calendar: #c3c3c3;
+$main-color: #fff;
+$dark-color: #222;
+
+$green: #18daab;
+$purple: #d152cc;
+$orange: #f26d67;
+$materia: #ebebeb;
+
+.item{
+    padding: 8px 10px;
+    border-bottom: 2px solid $materia;
+    font-size: 14px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+img{
+    width: 100px;
+    border: 4px solid $green;
+    border-radius: 50%;
+}

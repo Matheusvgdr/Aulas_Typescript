@@ -1,7 +1,10 @@
 export {Aluno};
 
 interface Aluno{ 
-    matricula: number;
+    matricula: string;
     nome: string;
+    idade:number;
     turma: string;
+    contato?: string;
+    caminhoImagem: string;
 }

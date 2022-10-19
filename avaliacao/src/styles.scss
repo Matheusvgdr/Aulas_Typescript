@@ -1,3 +1,26 @@
+@import url('http://fonts.cdnfonts.com/css/hartwell-alt');
+
+$default-font: 'Hartwell';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $default-font;
+}
+
 body{
-    background: #222;
+    background-image: url('assets/bg-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all{
+    background-color: rgba(255, 255, 255, 0.308);
+    backdrop-filter: blur(95px);
+    border-radius: 20px;
+    padding: 40px 50px;
+    height: 95vh;
+    width: 87%;
+    float: right;
 }

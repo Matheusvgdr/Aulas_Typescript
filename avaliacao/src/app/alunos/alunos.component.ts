@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Aluno } from './aluno/aluno.model';
+import { AlunosService } from './alunos.service';
 
 @Component({
   selector: 'ava-alunos',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunosComponent implements OnInit {
 
-  constructor() { }
+  alunos!:Array<Aluno>;
+
+  constructor(private alunosService: AlunosService ) { }
 
   ngOnInit(): void {
+    this.alunosService.listarAlunos().subscribe(alunos => this.alunos = alunos);
   }
 
 }

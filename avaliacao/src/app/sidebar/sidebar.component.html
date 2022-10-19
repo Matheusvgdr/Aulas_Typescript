@@ -1,0 +1,25 @@
+<nav>
+    <div class="titulo">
+        <h1>Control.alu</h1>
+    </div>
+
+    <ul>
+        <a [routerLink]="['/']" ><li><i class="bx bxs-home" ></i>Home</li></a>
+        <a [routerLink]="['calendario']" ><li><i class="bx bx-calendar" ></i>Agenda</li></a>
+        <a [routerLink]="['alunos']" ><li><i class="bx bx-book" ></i>Alunos</li></a>
+        <a [routerLink]="['sobre']" ><li><i class="bx bx-info-circle" ></i>Sobre</li></a>
+        <a [routerLink]="['perfil']" ><li><i class="bx bx-user-pin" ></i>Perfil</li></a>
+        <a [routerLink]="['/']" ><li><i class="bx bx-message-dots" ></i>Mensagens</li></a>
+    </ul>
+
+    <div class="down">
+        <div class="toggle">
+            <input type="checkbox" id="switch" />
+            <label for="switch">Toggle</label>
+        </div>
+        <div class="logout">
+        
+            <button class="btn"><i class="bx bx-log-out"></i> Sair</button>
+        </div>
+    </div>
+</nav>

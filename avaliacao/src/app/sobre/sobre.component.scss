@@ -1,0 +1,56 @@
+$color-calendar: #c3c3c3;
+$main-color: #fff;
+$dark-color: #222;
+
+$line: #df8013;
+$purple: #d152cc;
+$orange: #f26d67;
+$materia: #ebebeb;
+
+.conteudo{
+    overflow: hidden;
+    height: 90%;
+    width: 100%;
+    background: $main-color;
+    border-radius: 13px;
+
+    .imgSide{
+        background-image: url('../../assets/school-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    
+    .infoSide{
+        padding: 40px 60px;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        gap: 18px;
+
+        i{
+            transform: scale(1.8);
+        }
+    }
+    p{
+        margin-top: 30px;
+    }
+
+    .line{
+        height: 2px;
+        width: 60%;
+        background: $line;
+        margin: 12px 0;
+    }
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
