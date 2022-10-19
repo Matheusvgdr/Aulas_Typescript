@@ -41,36 +41,9 @@
 
             <div class="flex gap-5 pt-5 overflow-hidden ">
 
-                <div class=" bg-terr1 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px]">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Freddy Krueger</h2>
-                       
-                    </div>
-                </div>
-
-                <div class=" bg-terr2 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect rounded-[10px]">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px]">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Noite da morte</h2>
-                    </div>
-                </div>
-
-                <div class=" bg-terr3 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px]">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Chuck</h2>
-                        
-                    </div>
-                </div>
-
-                <div class="bg-terr4 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px] ">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">O massacre</h2>
-                       
-                    </div>
-                </div>
-
-                <div class="bg-terr5 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px] ">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Floresta assassina</h2>
+                <div class="flex gap-5 pt-5 overflow-hidden ">
+                    <div *ngFor="let filme of filmes">
+                        <cine-filme [filme]="filme"></cine-filme>
                     </div>
                 </div>
                 

@@ -3,32 +3,112 @@
         {
             "id": 1,
             "titulo":"Espaço",
-            "caminhoImagem":"./assets/img/new1.png"
+            "caminhoImagem":"./assets/img/new1.png",
+            "linkFilmes":"espaco-pg"
         },
         {
             "id": 2,
             "titulo":"Terror",
-            "caminhoImagem":"./assets/img/new3.png"
+            "caminhoImagem":"./assets/img/new3.png",
+            "linkFilmes":"terror-pg"
         },
         {
             "id": 3,
             "titulo":"Drama",
-            "caminhoImagem":"./assets/img/new2.png"
+            "caminhoImagem":"./assets/img/new2.png",
+            "linkFilmes":"drama-pg"
         },
         {
             "id": 4,
             "titulo":"Heróis",
-            "caminhoImagem":"./assets/img/new6.png"
+            "caminhoImagem":"./assets/img/new6.png",
+            "linkFilmes":"herois-pg"
         },
         {
             "id": 5,
             "titulo":"Comédia",
-            "caminhoImagem":"./assets/img/new4.png"
+            "caminhoImagem":"./assets/img/new4.png",
+            "linkFilmes":"comedia-pg"
         },
         {
             "id": 6,
             "titulo":"Sci-fi",
-            "caminhoImagem":"./assets/img/new5.png"
+            "caminhoImagem":"./assets/img/new5.png",
+            "linkFilmes":"scifi-pg"
+        }
+    ],
+    "terror":[
+        {
+            "id":"1",
+            "nome":"Freddy Krueger",
+            "caminhoImagem":"../../assets/img/terr1.png",
+            "ano":"1998",
+            "duracao":"2h"
+        },
+        {
+            "id":"2",
+            "nome":"Noite da morte",
+            "caminhoImagem":"../../assets/img/terr2.png",
+            "ano":"2004",
+            "duracao":"1h 52min"
+        },
+        {
+            "id":"3",
+            "nome":"Chuck a revanche",
+            "caminhoImagem":"../../assets/img/terr3.png",
+            "ano":"2010",
+            "duracao":"1h 10min"
+        },
+        {
+            "id":"4",
+            "nome":"O massacre",
+            "caminhoImagem":"../../assets/img/terr4.png",
+            "ano":"2016",
+            "duracao":"1h 53min"
+        },
+        {
+            "id":"5",
+            "nome":"Floresta assassina",
+            "caminhoImagem":"../../assets/img/terr5.png",
+            "ano":"2008",
+            "duracao":"2h 3min"
+        }
+    ],
+    "espaco":[
+        {
+            "id":"1",
+            "nome":"Moonfall",
+            "caminhoImagem":"../../assets/img/sp1.png",
+            "ano":"1998",
+            "duracao":"2h"
+        },
+        {
+            "id":"2",
+            "nome":"A jornada",
+            "caminhoImagem":"../../assets/img/sp2.png",
+            "ano":"2004",
+            "duracao":"1h 52min"
+        },
+        {
+            "id":"3",
+            "nome":"Passageiros",
+            "caminhoImagem":"../../assets/img/sp3.png",
+            "ano":"2010",
+            "duracao":"1h 10min"
+        },
+        {
+            "id":"4",
+            "nome":"High Life",
+            "caminhoImagem":"../../assets/img/sp4.png",
+            "ano":"2016",
+            "duracao":"1h 53min"
+        },
+        {
+            "id":"5",
+            "nome":"Refúgio",
+            "caminhoImagem":"../../assets/img/sp5.png",
+            "ano":"2008",
+            "duracao":"2h 3min"
         }
     ]
 }

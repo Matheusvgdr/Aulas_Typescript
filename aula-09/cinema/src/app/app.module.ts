@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CategoriasComponent } from './categorias/categorias.component';
-import { TerrorComponent } from './terror/terror.component';
 import { EspacoComponent } from './espaco/espaco.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
@@ -13,18 +12,23 @@ import { ROUTES } from './app.routes';
 import { CategoriaComponent } from './categorias/categoria/categoria.component';
 import { CategoriasService } from './categorias/categorias.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FilmesComponent } from './filmes/filmes.component';
+import { FilmeComponent } from './filmes/filme/filme.component';
+import { FilmesService } from './filmes/filmes.service';
+import { EspacoService } from './espaco/espaco.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoriasComponent,
-    TerrorComponent,
     EspacoComponent,
     SobreComponent,
     CabecalhoComponent,
     HomeComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    FilmesComponent,
+    FilmeComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [
-    CategoriasService
+    CategoriasService,
+    FilmesService,
+    EspacoService
   ],
   bootstrap: [AppComponent]
 })

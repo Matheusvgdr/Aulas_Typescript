@@ -42,38 +42,9 @@
 
             <div class="flex gap-5 pt-5 overflow-hidden ">
 
-                <div class=" bg-sp1 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px]">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Moonfall</h2>
-                       
-                    </div>
-                </div>
-
-                <div class=" bg-sp2 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect rounded-[10px]">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px]">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">A jornada</h2>
-                       
-                    </div>
-                </div>
-
-                <div class=" bg-sp3 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px]">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Passageiros</h2>
-                        
-                    </div>
-                </div>
-
-                <div class="bg-sp4 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px] ">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">High life</h2>
-                       
-                    </div>
-                </div>
-
-                <div class="bg-sp5 w-[338px] h-[280px] bg-no-repeat bg-cover cursor-pointer duration-300 scale-effect">
-                    <div class="backdrop-blur bg-zinc-900/20 w-full p-5 flex flex-col mt-[182px] ">
-                        <h2 class="text-[28px] font-['Gilroy-Bold'] ">Refúgio</h2>
-                       
+                <div class="flex gap-5 pt-5 overflow-hidden ">
+                    <div *ngFor="let filme of filmes">
+                        <cine-filme [filme]="filme"></cine-filme>
                     </div>
                 </div>
                 
