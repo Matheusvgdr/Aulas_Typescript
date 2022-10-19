@@ -13,8 +13,8 @@ $materia: #ebebeb;
 nav {
     position: fixed;
     border-radius: 20px;
-    padding: 40px 30px;
-    height: 95vh;
+    padding: 25px 30px;
+    height: 96.5vh;
     background-color: rgba(255, 255, 255, 0.267);
     backdrop-filter: blur(50px);
     width: 10%;
@@ -24,6 +24,9 @@ nav {
     align-items: center;
 }
 
+.titulo{
+    margin-bottom: 10px;
+}
 ul {
     list-style: none;
     display: grid;
@@ -144,7 +147,7 @@ ul {
 //TOGGLE
 
 .toggle{
-    margin-bottom: 20px;
+    margin: 12px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
