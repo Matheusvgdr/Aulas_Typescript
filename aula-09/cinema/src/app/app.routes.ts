@@ -9,7 +9,7 @@ export const ROUTES: Routes = [
     {path: '', component:HomeComponent},
     {path: 'sobre', component:SobreComponent},
     {path: 'categorias', component:CategoriasComponent},
-    {path: 'categorias/terror-pg', component:FilmesComponent},
-    {path: 'categorias/espaco-pg', component:EspacoComponent},
-    {path: 'filmes', component:FilmesComponent}
+    // {path: 'categorias/terror-pg', component:FilmesComponent},
+    // {path: 'categorias/espaco-pg', component:EspacoComponent},
+    {path: 'filmes/:id', component:FilmesComponent}
 ];

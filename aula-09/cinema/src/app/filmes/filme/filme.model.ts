@@ -6,4 +6,5 @@ interface Filme{
     caminhoImagem: string;
     ano: string;
     duracao: string;
+    categoriaId: string;
 }

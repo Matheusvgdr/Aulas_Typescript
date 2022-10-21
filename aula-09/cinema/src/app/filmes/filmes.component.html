@@ -45,6 +45,10 @@
                     <div *ngFor="let filme of filmes">
                         <cine-filme [filme]="filme"></cine-filme>
                     </div>
+
+                    <div *ngIf="filmes.length == 0">
+                        <h2 class="text-3xl font-['Gilroy-Bold']">Não existem filmes nessa Categoria</h2>
+                    </div>
                 </div>
                 
             </div>

@@ -14,7 +14,7 @@ class FilmesService{
     
     constructor(private http: HttpClient) {}
 
-    listarFilmes(): Observable<Array<Filme>>{
-        return this.http.get<Array<Filme>>(`${CINEMA_API}/terror`).pipe(catchError(ErrorHandler.handleError));
+    listarFilmes(id: number): Observable<Array<Filme>>{
+        return this.http.get<Array<Filme>>(`${CINEMA_API}/filmes?categoriaId=${id}`).pipe(catchError(ErrorHandler.handleError));
     }
 }
